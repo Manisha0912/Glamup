@@ -7,8 +7,16 @@ export default {
   theme: {
     extend: {
       colors:{
-        'primary':"#5f6FFF"
+        'primary':"#5f6FFF",
+        'beige': "#000000"
+      },
+      gridTemplateColumns:{
+        'auto':'repeat(auto-fill, minmax(250px,1fr))'
       }
+  /* For hiding scrollbars */
+     
+      
+
     },
   },
   plugins: [],
