@@ -606,7 +606,7 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { assets } from '../assets/assets';
-import { AppContext } from '../context/AppContext';
+import { AppContext } from '../Context/AppContext';
 import RelatedArtists from '../Components/RelatedArtists';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
